@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Economics Job Market Candidates</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Economics Job Market Candidates & JMP Papers</h1>
+      <p>
+        A searchable directory of economics job market candidates and their
+        primary papers.
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="controls" aria-label="Filter candidates">
+        <label>
+          Search
+          <input id="search" type="search" placeholder="Name, school, field, title" />
+        </label>
+        <label>
+          Field
+          <select id="fieldFilter">
+            <option value="">All fields</option>
+          </select>
+        </label>
+        <label>
+          School
+          <select id="schoolFilter">
+            <option value="">All schools</option>
+          </select>
+        </label>
+        <label>
+          Sort by
+          <select id="sortBy">
+            <option value="name">Name (A-Z)</option>
+            <option value="school">School (A-Z)</option>
+            <option value="year">Cohort year (Newest first)</option>
+          </select>
+        </label>
+      </section>
+
+      <section>
+        <p id="meta" class="meta"></p>
+        <div id="cards" class="cards" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="container small">
+      <p>
+        Data sources are listed for each candidate. Last updated metadata is in
+        <code>data/candidates.json</code>.
+      </p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
