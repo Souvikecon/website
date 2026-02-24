@@ -1,0 +1,60 @@
+{
+  "updatedOn": "2026-02-24",
+  "notes": "Maintainers should verify each entry directly against the listed source page before publishing updates.",
+  "candidates": [
+    {
+      "name": "Aureo de Paula",
+      "school": "University College London",
+      "cohortYear": 2004,
+      "primaryField": "Applied Microeconomics",
+      "secondaryFields": ["Labor Economics"],
+      "paper": {
+        "title": "An Empirical Analysis of Self-Employment Dynamics",
+        "url": "https://www.princeton.edu/~adp/research/selfemployment.pdf"
+      },
+      "cvUrl": "https://www.princeton.edu/~adp/",
+      "websiteUrl": "https://scholar.google.com/citations?user=O3Lh2sUAAAAJ",
+      "source": {
+        "label": "Princeton profile",
+        "url": "https://economics.princeton.edu/people/aureo-de-paula/",
+        "verifiedOn": "2026-02-24"
+      }
+    },
+    {
+      "name": "Emi Nakamura",
+      "school": "Harvard University",
+      "cohortYear": 2008,
+      "primaryField": "Macroeconomics",
+      "secondaryFields": ["International Economics"],
+      "paper": {
+        "title": "Monetary Non-Neutrality in a Multi-Sector Menu Cost Model",
+        "url": "https://eml.berkeley.edu/~enakamura/papers/sectoralmenu.pdf"
+      },
+      "cvUrl": "https://eml.berkeley.edu/~enakamura/",
+      "websiteUrl": "https://scholar.google.com/citations?user=8s3I7vgAAAAJ",
+      "source": {
+        "label": "UC Berkeley profile",
+        "url": "https://eml.berkeley.edu/~enakamura/",
+        "verifiedOn": "2026-02-24"
+      }
+    },
+    {
+      "name": "Pete Klenow",
+      "school": "Stanford University",
+      "cohortYear": 1994,
+      "primaryField": "Macroeconomics",
+      "secondaryFields": ["Growth"],
+      "paper": {
+        "title": "Externalities and Growth",
+        "url": "https://web.stanford.edu/~klenow/ek.pdf"
+      },
+      "cvUrl": "https://web.stanford.edu/~klenow/",
+      "websiteUrl": "https://web.stanford.edu/~klenow/",
+      "source": {
+        "label": "Stanford profile",
+        "url": "https://economics.stanford.edu/people/pete-klenow",
+        "verifiedOn": "2026-02-24"
+      }
+    }
+  ]
+}
